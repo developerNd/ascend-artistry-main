@@ -115,7 +115,7 @@ const GuaranteeSection = () => {
               variant="cta" 
               size="lg" 
               className="text-lg sm:text-xl py-4 sm:py-6 px-8 sm:px-12"
-              onClick={() => window.open('https://rzp.io/rzp/NjZxFD7y', '_blank')}
+              onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
             >
               🟡 Start Your Risk-Free MSR Journey Now
             </Button>

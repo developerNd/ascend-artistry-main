@@ -127,7 +127,7 @@ const FinalCTASection = () => {
                 variant="cta" 
                 size="lg" 
                 className="text-lg sm:text-xl lg:text-2xl py-6 sm:py-8 px-8 sm:px-12 lg:px-16 animate-bounce"
-                onClick={() => window.open('https://rzp.io/rzp/NjZxFD7y', '_blank')}
+                onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
               >
                 🟡 Yes! मुझे MSR System सीखना है — Enroll Now
               </Button>

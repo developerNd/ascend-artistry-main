@@ -53,7 +53,7 @@ const Index = () => {
                 30 Days Program
               </div>
               <button 
-                onclick="window.open('https://rzp.io/rzp/NjZxFD7y', '_blank', 'noopener,noreferrer')"
+                onclick="window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank', 'noopener,noreferrer')"
                 style="
                   background: linear-gradient(to right, #059669, #10b981);
                   color: white;

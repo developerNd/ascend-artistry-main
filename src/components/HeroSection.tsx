@@ -56,7 +56,7 @@ const HeroSection = () => {
                 variant="cta" 
                 size="lg" 
                 className="text-lg sm:text-xl py-4 sm:py-6 px-6 sm:px-8"
-                onClick={() => window.open('https://rzp.io/rzp/NjZxFD7y', '_blank')}
+                onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
               >
                 <span className="hidden sm:inline">Book Your 30-Day Game-Changing Strategy Call</span>
                 <span className="sm:hidden">Book Strategy Call</span>
