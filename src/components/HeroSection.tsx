@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, TrendingUp, Users } from "lucide-react";
-import heroCoach from "@/assets/hero-coach.jpg";
+import heroCoach from "@/assets/hero-coach.jpeg";
 
 const HeroSection = () => {
   return (
@@ -52,7 +52,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex justify-center">
-              <Button 
+              {/* <Button 
                 variant="cta" 
                 size="lg" 
                 className="text-lg sm:text-xl py-4 sm:py-6 px-6 sm:px-8"
@@ -60,6 +60,14 @@ const HeroSection = () => {
               >
                 <span className="hidden sm:inline">Book Your 30-Day Game-Changing Strategy Call</span>
                 <span className="sm:hidden">Book Strategy Call</span>
+              </Button> */}
+                <Button 
+                variant="cta" 
+                size="lg" 
+                className="text-lg sm:text-xl lg:text-2xl py-6 sm:py-8 px-8 sm:px-12 lg:px-16 animate-bounce"
+                onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
+              >
+                🟡 Yes! मुझे MSR System सीखना है — Enroll Now
               </Button>
             </div>
 
