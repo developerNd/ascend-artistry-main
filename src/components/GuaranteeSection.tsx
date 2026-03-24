@@ -114,7 +114,7 @@ const GuaranteeSection = () => {
             <Button 
               variant="cta" 
               size="lg" 
-              className="text-lg sm:text-xl py-4 sm:py-6 px-8 sm:px-12"
+              className="text-lg sm:text-xl py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 lg:px-12 whitespace-normal max-w-full"
               onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
             >
               🟡 Start Your Risk-Free MSR Journey Now
