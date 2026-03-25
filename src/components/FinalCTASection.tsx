@@ -129,7 +129,7 @@ const FinalCTASection = () => {
                 className="text-lg sm:text-xl lg:text-2xl py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 lg:px-12 animate-bounce whitespace-normal max-w-full"
                 onClick={() => window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank')}
               >
-                🟡 Yes! मुझे MSR System सीखना है — Enroll Now
+                🟡 Yes! मुझे MSR System सीखना है — Enroll Now ₹9
               </Button>
               
               <div className="text-center">

@@ -33,7 +33,7 @@ const Index = () => {
           <div style="display: flex; align-items: center; justify-content: space-between;">
             <div style="display: flex; flex-direction: column; gap: 2px;">
               <div style="display: flex; align-items: center; gap: 6px;">
-                <span style="font-size: 20px; font-weight: bold; color: #059669;">₹99</span>
+                <span style="font-size: 20px; font-weight: bold; color: #059669;">₹9</span>
                 <span style="font-size: 16px; color: #dc2626; text-decoration: line-through;">₹9,997</span>
               </div>
               <div style="font-size: 11px; color: #6b7280; font-weight: 500;">
@@ -41,17 +41,7 @@ const Index = () => {
               </div>
             </div>
             <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px;">
-              <div style="
-                background-color: rgba(234, 179, 8, 0.2);
-                color: #eab308;
-                border: 1px solid rgba(234, 179, 8, 0.3);
-                font-size: 11px;
-                padding: 2px 6px;
-                border-radius: 9999px;
-                display: inline-block;
-              ">
-                30 Days Program
-              </div>
+
               <button 
                 onclick="window.open('https://pages.razorpay.com/pl_O4RbvDz7we10PA/view', '_blank', 'noopener,noreferrer')"
                 style="
@@ -70,9 +60,6 @@ const Index = () => {
               >
                 ENROLL NOW
               </button>
-              <div style="font-size: 11px; color: #6b7280; font-weight: 500;">
-                + Lifetime Access
-              </div>
             </div>
           </div>
         </div>
