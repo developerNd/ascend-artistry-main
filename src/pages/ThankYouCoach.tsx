@@ -11,10 +11,10 @@ export default function App() {
       <div className="absolute top-[30%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] sm:w-[600px] sm:h-[600px] bg-[radial-gradient(ellipse,rgba(30,60,120,0.35)_0%,transparent_70%)] pointer-events-none" />
 
       {/* Center content */}
-      <div className="text-center max-w-[860px] w-full px-6 relative z-10 py-12">
+      <div className="text-center max-w-[860px] md:max-w-3xl w-full px-4 sm:px-6 relative z-10 py-10 sm:py-12">
         {/* Gold check icon in circle */}
-        <div className="flex justify-center mb-8">
-          <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shadow-xl shadow-black/20">
+        <div className="flex justify-center mb-7 sm:mb-8">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shadow-xl shadow-black/20">
             <svg
               className="w-10 h-10 sm:w-12 sm:h-12"
               viewBox="0 0 24 24"
@@ -30,7 +30,7 @@ export default function App() {
         </div>
 
         {/* Main heading */}
-        <h1 className="text-[clamp(1.75rem,9vw,7.5rem)] font-black text-blue-500 mb-8 leading-[1.1] tracking-tighter">
+        <h1 className="text-[clamp(1.75rem,9vw,3.4rem)] sm:text-[clamp(1.9rem,7vw,4rem)] font-black text-blue-500 mb-6 sm:mb-8 leading-[1.1] tracking-tight">
           Congratulations!
         </h1>
 
@@ -88,7 +88,7 @@ export default function App() {
               "_blank"
             )
           }
-          className="bg-[#F5C542] hover:bg-[#f7cf66] text-neutral-900 border-none rounded-full px-8 py-4 sm:px-12 sm:py-[18px] text-lg sm:text-xl font-bold cursor-pointer inline-flex items-center gap-3 shadow-[0_4px_24px_rgba(245,197,66,0.3)] hover:shadow-[0_8px_32px_rgba(245,197,66,0.45)] transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 active:scale-95"
+          className="bg-[#F5C542] hover:bg-[#f7cf66] text-neutral-900 border-none rounded-full px-6 py-3 sm:px-12 sm:py-[18px] text-base sm:text-lg font-bold cursor-pointer inline-flex items-center gap-2 sm:gap-3 shadow-[0_4px_24px_rgba(245,197,66,0.3)] hover:shadow-[0_8px_32px_rgba(245,197,66,0.45)] transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 w-full max-w-xs mx-auto justify-center" 
         >
           {/* Calendar icon */}
           <svg
