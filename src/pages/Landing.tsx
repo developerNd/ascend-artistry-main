@@ -563,7 +563,7 @@ const Landing = () => {
             In <span className="orange">30 Days</span>
           </h1>
           <p className="hero-sub">
-            No shortcuts, only a Real & Practical Framework used by Top 1% Health & Wellness Coaches In India
+            <span style={{ color: '#A0E7FF' }}>No shortcuts, only a Real & Practical Framework</span> <span style={{ color: '#00C07B', fontWeight: '600' }}>used by Top 1% Health & Wellness Coaches In India</span>
           </p>
           <div className="cta-group" id="cta">
             <button className="cta-btn" onClick={handleCTAClick}>Book Growth Call @ ₹9 →</button>
